@@ -10,6 +10,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build --prod --extract-licenses=false --stats-json",
+    "deploy": "firebase deploy",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
