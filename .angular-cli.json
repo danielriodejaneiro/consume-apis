@@ -6,7 +6,7 @@
   "apps": [
     {
       "root": "src",
-      "outDir": "dist",
+      "outDir": "public",
       "assets": [
         "assets",
         "favicon.ico"
@@ -55,6 +55,13 @@
     }
   },
   "defaults": {
+    "serve": {
+      "port": 1234
+    },
+    "build": {
+      "sourcemaps": true,
+      "namedChunks": true
+    },
     "styleExt": "scss",
     "class": {
       "spec": false

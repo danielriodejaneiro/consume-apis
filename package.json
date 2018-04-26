@@ -1,11 +1,15 @@
 {
   "name": "load-apis",
-  "version": "0.0.0",
+  "author": "Daniel Santos <daniel@brasileiro.ca>",
+  "description": "A generic consumer of APIs",
+  "homepage": "https://consume-apis.firebaseapp.com/",
+  "repository": "https://github.com/danielriodejaneiro/consume-apis.git",
+  "version": "1.0.0",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod --output-path public --sourcemap --show-circular-dependencies --extract-licenses=false --stats-json --named-chunks --delete-output-path=false",
+    "build": "ng build --prod --extract-licenses=false --stats-json",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
