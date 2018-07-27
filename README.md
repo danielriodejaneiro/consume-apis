@@ -4,4 +4,5 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
-Adds the support to [PWACompat](https://github.com/GoogleChromeLabs/pwacompat)
+- Adds the support to [PWACompat](https://github.com/GoogleChromeLabs/pwacompat)
+- TODO: Make SW work (*currently is not*)
