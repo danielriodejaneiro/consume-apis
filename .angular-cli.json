@@ -56,13 +56,6 @@
     }
   },
   "defaults": {
-    "serve": {
-      "port": 1234
-    },
-    "build": {
-      "sourcemaps": true,
-      "namedChunks": true
-    },
     "styleExt": "scss",
     "class": {
       "spec": false
